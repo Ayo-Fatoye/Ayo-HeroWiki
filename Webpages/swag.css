@@ -1,0 +1,300 @@
+.text {
+    background-color: goldenrod;
+    font-family: 'comic sans ms', Arial, cursive;
+    font-size: 225%;
+    margin: 0%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    border-radius: 5px;
+    border-style: solid;
+
+  }
+  .top-five-titles {
+    background-color: goldenrod;
+    font-family: 'comic sans ms', Arial, cursive;
+    font-size: 225%;
+    margin: 0%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 50%;
+    width: 35%;
+    text-align: center;
+    border-radius: 5px;
+    border-style: solid;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: 20px;
+
+  }
+  .info-cards {
+    background-color: goldenrod;
+    font-family: 'comic sans ms', Arial, cursive;
+    font-size: 120%;
+    
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 420px;
+    width: 99%;
+    text-align: center;
+    border-radius: 5px;
+    border-style: solid;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: 20px;
+
+  }
+  .info-cards-headers {
+    background-color: goldenrod;
+    font-family: 'comic sans ms', Arial, cursive;
+    font-size: 170%;
+    font-weight: bold;
+
+    margin-top: 0px;
+    margin-left: 7%;
+    margin-bottom: 1%;
+    
+
+    padding-top: 0px;
+    padding-bottom: 0px;
+    
+    height: 1%;
+    width: 15%;
+    text-align: center;
+
+  }
+  .info-cards-paragraphs {
+    
+    margin-top: 0%;
+    margin-left: 22%;
+    margin-bottom: 0%;
+
+    padding-top: 0px;
+    padding-bottom: 0px;
+    height: 50%;
+    width: 75%;
+    text-align: center;
+
+  }
+  .info-cards-imgs{
+    border: 1px solid rgb(5, 0, 0); /* Gray border */
+    border-radius: 3px;  /* Rounded border */
+    padding: 5px; /* Some padding */
+    width: 23%; /* Set a small width */
+    height: 75%;
+    float: left;
+    margin-top: 2%;
+    margin-left: 1%;
+
+  }
+  .result-info{
+    background-color: goldenrod;
+    font-family: 'comic sans ms', Arial, cursive;
+    font-size: 120%;
+    
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 100;
+    width: 30%;
+    text-align: center;
+    border-radius: 5px;
+    border-style: solid;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;    
+  }
+  .search-box {
+    text-align: center;
+    
+  }
+  .place-holder {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    width: 30%;
+    height: 7%;
+    border: 1px solid rgb(122, 91, 12); /* golden rod border */
+    border-radius: 3px;  /* Rounded border */
+    padding: 5px; /* Some padding */
+
+  }
+  .searchBoxInfo {
+    background-color: goldenrod;
+    font-family: 'comic sans ms', Arial, cursive;
+    font-size: 120%;
+    
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 100;
+    width: 65%;
+    text-align: center;
+    border-radius: 5px;
+    border-style: solid;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  * {box-sizing:border-box}
+  
+
+  #superman-thumbnail:hover {
+    content: url('clark.jpg');
+    width: 23%;
+  }
+  #daredevil-thumbnail {
+    
+    width: 20%;
+    height: 85%;
+  }
+  #daredevil-thumbnail:hover {
+    content: url('matt.jfif');
+    width: 20%;
+  }
+  #miles-thumbnail {
+    width: 17%;
+    height: 85%;
+    margin-left: 2%;
+    }
+    #miles-thumbnail:hover {
+      content: url('miles1.jpg');
+      width: 17%;
+      height: 85%;
+      margin-left: 3%;
+      }
+
+  #miles-header{
+    margin-left: 3%;
+  }
+  #sM{
+    margin-left: 5%;
+  }
+  #dd{
+    margin-left: 3%;
+  }
+  #Spiderman {
+    height: 480px;
+    
+  }
+
+
+  /**.slideshow-container {
+       
+  }**/
+  body {
+    background-color: #00aeef;
+  }
+  /**for the slideshow**/.images {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 75%;
+    border-radius: 5px;
+    border-style: solid;
+    }
+
+  /** Slideshow container 
+  
+  
+   Hide the images by default 
+  .mySlides {
+    display: none;
+  }
+  
+  Next & previous buttons
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  Position the "next button" to the right
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  On hover, add a black background color with a little bit see-through
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  Caption text
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  Number text (1/3 etc)
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  The dots/bullets/indicators
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }**/
+  
+  /* Fading animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
